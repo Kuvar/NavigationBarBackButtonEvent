@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<local:ExtendedContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BackButtonClick;assembly=BackButtonClick"
+             x:Class="BackButtonClick.Pages.FirstPage" 
+             EnableBackButtonOverride="False">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="First Page" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Grid Grid.Row="1" BackgroundColor="#2196F3">
+                <Label Text="Next Page" Style="{StaticResource btnStyle}" />
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Button_Clicked"/>
+                </Grid.GestureRecognizers>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</local:ExtendedContentPage>

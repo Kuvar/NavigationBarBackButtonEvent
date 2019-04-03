@@ -1,0 +1,14 @@
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\Pages\FirstPage.xaml.g.cs
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\Pages\SecondPage.xaml.g.cs
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\Pages\ThirdPage.xaml.g.cs
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\BackButtonClick.csproj.CoreCompileInputs.cache
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\BackButtonClick.AssemblyInfoInputs.cache
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\BackButtonClick.AssemblyInfo.cs
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\BackButtonClick.dll
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\BackButtonClick.pdb
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\bin\Debug\netstandard2.0\BackButtonClick.deps.json
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\bin\Debug\netstandard2.0\BackButtonClick.dll
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\bin\Debug\netstandard2.0\BackButtonClick.pdb
+F:\Source\Repos\NavigationBarBackButtonEvent\BackButtonClick\BackButtonClick\BackButtonClick\obj\Debug\netstandard2.0\XamlC.stamp

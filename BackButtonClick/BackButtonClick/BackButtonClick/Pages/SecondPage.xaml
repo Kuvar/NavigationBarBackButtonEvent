@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<local:ExtendedContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BackButtonClick;assembly=BackButtonClick"
+             x:Class="BackButtonClick.Pages.SecondPage" 
+             EnableBackButtonOverride="True">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="Second Page" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Grid Grid.Row="1" BackgroundColor="#2196F3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                    <Label Text="Previous" Style="{StaticResource btnStyle}"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="PreviousButton_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                <BoxView Grid.Column="1" VerticalOptions="FillAndExpand" BackgroundColor="White" WidthRequest="2"/>
+                <StackLayout Grid.Column="2" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                    <Label Text="Next" Style="{StaticResource btnStyle}"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="NextButton_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</local:ExtendedContentPage>

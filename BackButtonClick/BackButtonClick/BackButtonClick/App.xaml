@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BackButtonClick.App">
+    <Application.Resources>
+        <Style x:Key="btnStyle" TargetType="Label">
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+    </Application.Resources>
+</Application>
